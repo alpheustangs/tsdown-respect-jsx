@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "scripts": {
+        "rolldown": "cd ./packages/rolldown && rolldown -c rolldown.config.ts",
+        "tsdown": "cd ./packages/tsdown && tsdown -c tsdown.config.ts"
+    },
+    "devDependencies": {
+        "rolldown": "1.0.0-beta.22",
+        "tsdown": "0.12.9",
+        "typescript": "^5.8.3"
+    }
+}
